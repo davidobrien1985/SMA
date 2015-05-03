@@ -5,5 +5,5 @@ $a = 'TechEd'
 
 $a = InlineScript { $a = 'AuTechEd'; return $a }
 
-"Welcome to $a"
+"Welcome to $a" 
 }
