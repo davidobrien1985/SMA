@@ -1,9 +1,8 @@
-﻿
-workflow auteched {
-$a = 'TechEd'
-"Welcome to $a"
+﻿workflow auteched {
+$a = 'Australia'
+Write-Verbose "Welcome to $a"
 
 $a = InlineScript { $a = 'AuTechEd'; return $a }
 
-"Welcome to $a" 
+Write-Verbose "Welcome to $a" 
 }
